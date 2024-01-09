@@ -1,0 +1,562 @@
+@media(max-width: 1200px){
+    #carouselExampleFade{
+        .carousel-img-container {
+            position: relative;
+            height: 70vh;
+            width: 100%;
+        }
+        .carousel-p-tag{
+            font-size: 2.7rem;
+            top: 67%;
+        }
+    }
+    #Home{
+        .hero-p-tag{
+            font-size:1.4rem;
+        }
+        .hero-icons{
+            font-size:1.4rem;
+        }
+        .hero-containers{
+            width: 18%;
+        }
+        .programs .box{
+            height: 230px;
+            width: 230px;
+            margin-right: 15px;
+        }
+        .testimonial {
+            width: 450px;
+        }
+    }
+    #page-component{
+        .page-component-img-container{
+            height: 100%;
+        }
+    }
+    #Register{
+        .sign-up-container{
+            height: 750px;
+            font-size: 16px;
+        }
+        .sign-up-btn{
+            margin-top: 20px;
+        }
+    }
+    #Administration{
+        .Administration-cards-layout{
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        }
+        .Administration-info{
+            height: 400px;
+            width: 100%;
+            border: 1px solid black;
+            margin-right: 15px;
+            margin-top: 20px;
+        }
+        .Administration-img-div{
+            height: 100px;
+            border-bottom: 1px solid black;
+            position: relative;
+        }
+        .Administration-h1-tag{
+            font-size: 1.2rem;
+        }
+        .subject-container{
+            height: 55px;
+        }
+        .subject-items{
+            width: 90%;
+        }
+    }
+    #Admission{
+        .register-header{
+            font-size: 2.6rem;
+            text-align: center;
+            font-weight: lighter;
+        }
+        .register-img-container{
+            position: relative;
+            height: 459px;
+            width: 45%;
+            margin-top: 30px;
+        }
+        .register-details-container{
+            height: 507px;
+            width: 45%;
+        }
+        .register-h1{
+            text-align: center;
+            font-weight: bold;
+            font-size: 2.3rem;
+        }
+        .register-p-tag{
+            font-size: 1.3rem;
+        }
+        .card-right-left{
+            margin: 100px 0;
+        }
+    }
+    .button{
+        font-size: 0.7rem;
+    }
+    #footer {
+        .footer-col {
+            width: 30%;
+        }
+        .footer-p-tag {
+            font-size: 1.1rem;
+        }
+    }
+}
+
+@media (max-width: 992px) {
+    .top-contact-container{
+        display: none;
+    }
+    #carouselExampleFade{
+        .carousel-img-container {
+            position: relative;
+            height: 60vh;
+            width: 100%;
+        }
+        .carousel-p-tag{
+            font-size: 2.4rem;
+        }
+    }
+    #navbar{
+        .navbar-btn{
+            margin-bottom: 10px;
+        }
+        .closebtn{
+            text-decoration: none;
+        }
+        .side-bar-icon{
+            display: flex;
+        }
+        .sidenav {
+            display: block;
+            height: 100%;
+            width: 0;
+            position: fixed;
+            z-index: 1;
+            top: 0;
+            background-color: var(--secondary-color);
+            color: #FFFFFF;
+            overflow-x: hidden;
+            transition: 0.3s;
+            padding-top: 60px;
+        }
+        .sidenav .side-nav-link {
+            padding: 8px 20px 8px 32px;
+            text-decoration: none;
+            font-size: 1rem;
+            color: #FFFFFF;
+            display: block;
+            transition: 0.3s;
+        }
+        .side-nav-button{
+            margin-left: 30px;
+        }
+        .sidenav .side-nav-link:hover {
+            color: #818181;
+        }
+        .side-bar-hr{
+            margin:6px 18px 28px 29px;
+        }
+        .side-bar-dropdown{
+            margin:0 18px 0 0;
+        }
+        .sidenav .closebtn {
+            position: absolute;
+            top: 0;
+            right: 25px;
+            font-size: 36px;
+            margin-left: 50px;
+            color: #FFFFFF;
+        }
+        .accordion {
+            --bs-accordion-btn-bg: var(--secondary-color);
+            --bs-accordion-active-bg: var(--secondary-color);
+            --bs-accordion-active-color: white;
+            --bs-accordion-btn-focus-box-shadow: none;
+            --bs-accordion-bg: var(--secondary-color);
+            --bs-accordion-color: white;
+            margin-top: -19px;
+        }
+        .accordion-button:not(.collapsed) {
+            box-shadow: none;
+        }
+        .accordion-button::after {
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='white' class='bi bi-plus' viewBox='0 0 16 16'%3E%3Cpath d='M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z'/%3E%3C/svg%3E");
+            transition: all 0.5s;
+        }
+        .accordion-button:not(.collapsed)::after {
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='white' class='bi bi-dash' viewBox='0 0 16 16'%3E%3Cpath d='M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8z'/%3E%3C/svg%3E");
+        }
+        .accordion-body{
+            margin:-10px 18px 0 29px;
+            list-style: none;
+        }
+        .accordion-link{
+            padding: 23px 20px 16px 31px;
+            text-decoration: none;
+            font-size: 1rem;
+            color: #FFFFFF;
+            display: block;
+            transition: 0.3s;
+        }
+        .accordion-li{
+            margin-bottom: 10px;
+        }
+        .accordion-links{
+            text-decoration: none;
+            color: #FFFFFF;
+        }
+    }
+    #Home{
+        .hero-p-tag{
+            font-size:1.2rem;
+        }
+        .hero-icons{
+            font-size:1.2rem;
+        }
+        .program{
+            height: 350px;
+            width: 350px;
+        }
+        .program__title {
+            letter-spacing: 0;
+        }
+    }
+    #page-component{
+        .page-component-hr {
+            margin: 50px 15px;
+        }
+        .page-component-img-container{
+            height: 397px;
+            width: 100%;
+        }
+        .page-component-div-left{
+            margin: 0 20px;
+        }
+        .page-component-div-right{
+            margin: 0 20px;
+        }
+    }
+    #Administration{
+        .Administration-info{
+            height: 350px;
+            border: 1px solid black;
+            margin-right: 15px;
+            margin-top: 20px;
+        }
+        .Administration-img-div{
+            height: 100px;
+            border-bottom: 1px solid black;
+            position: relative;
+        }
+    }
+    #Admission{
+        .background-img-containers {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+            max-width: 800px;
+        }
+        .background-img-items {
+            width: 100%;
+            margin: 10px 0;
+            height: 115px;
+        }
+        .register-header{
+            font-size: 2.4rem;
+            text-align: center;
+            font-weight: lighter;
+        }
+        .register-main-container{
+            flex-direction: column;
+            align-items: center;
+        }
+        .register-img-container{
+            height: 459px;
+            width: 90%;
+            margin-top: 10px;
+        }
+        .register-details-container{
+            height: 507px;
+            width: 90%;
+            margin-top: 10px;
+        }
+        .register-h1{
+            text-align: center;
+            font-weight: bold;
+            font-size: 2.3rem;
+        }
+        .register-p-tag{
+            font-size: 1.3rem;
+        }
+        .card-right-left{
+            margin: 100px 0;
+        }
+    }
+    #Administration-form{
+        .administration-input-div{
+            display: flex;
+            margin-top: 0;
+            flex-direction: column;
+        }
+        .administraion-form-label{
+            margin-top: 15px;
+        }
+        .administration-form-p-tag{
+            font-size: 1rem;
+        }
+        .administration-md-top{
+            margin-top: 15px;
+        }
+        .form-check{
+            margin-right: 20px;
+        }
+    }
+    #contact-us{
+        .contact-details{
+            padding-left: 0;
+        }
+    }
+    #footer {
+        .footer-content {
+            display: flex;
+            justify-content: space-around;
+        }
+        .footer-col {
+            width: 35%;
+        }
+        .footer-top{
+            width: 40%;
+        }
+        .footer-p-tag {
+            font-size: 1rem;
+            text-align: center;
+        }
+    }
+    #Register{
+        .sign-up-container{
+            height: 800px;
+            width: 296px;
+            font-size: 16px;
+        }
+    }
+}
+
+@media(max-width: 767px) {
+    #carouselExampleFade{
+        .carousel-img-container {
+            position: relative;
+            height: 50vh;
+            width: 100%;
+        }
+        .carousel-p-tag{
+            position: absolute;
+            top: 50%;
+            left: 53%;
+            width: 70%;
+            transform: translate(-50%, -50%);
+            z-index: 20;
+            font-weight: bold;
+            font-size: 2.2rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+    #Home {
+        .hero-containers{
+            height: 100px;
+            width: 200px;
+            margin: 0 15px 10px 0;
+        }
+        .program-main-div{
+            flex-direction: column;
+        }
+        .program{
+            margin-top: 20px;
+        }
+        .hero-img-container{
+            position: relative;
+            height: 50vh;
+            margin: 0 3px;
+            width: 98%;
+        }
+        .testimonial {
+            width: 400px;
+        }
+    }
+    #Administration{
+        .Administration-h2-tag{
+            margin-bottom: 75px;
+        }
+        .subject-img{
+            height: 200px;
+        }
+        .subject-items{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .subject-p-tag{
+            display: flex;
+            margin-top: 10px;
+        }
+    }
+    #page-component{
+        .page-component-img-container{
+            height: 397px;
+            width: 100%;
+        }
+        .page-component-url{
+            font-size: 12px;
+        }
+    }
+    #dynamic-component{
+        .dynamic-hr {
+            margin: 10px;
+        }
+        .dynamic-container-img{
+            width: 100%;
+            margin-bottom: 20px;
+        }
+    }
+    #footer {
+        .footer-content {
+            display: flex;
+            justify-content: normal;
+            flex-direction: column;
+        }
+        .footer-col{
+            width: 100%;
+        }
+        .footer-top{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .footer-p-tag {
+            text-align: center;
+        }
+    }
+    #Register{
+        .sign-up-container{
+            height: 750px;
+            width: 296px;
+            font-size: 16px;
+        }
+    }
+}
+
+@media(max-width: 574px) {
+    #Home {
+        .hero-p-tag{
+            font-size:1rem;
+        }
+        .hero-icons{
+            font-size:1rem;
+        }
+        .hero-containers{
+            height: 90px;
+            width: 160px;
+            margin: 0 15px 10px 0;
+        }
+        .hero-p-tag-3{
+            margin-bottom: 20px;
+            font-size: 1rem;
+        }
+        .hero-img-container{
+            position: relative;
+            height: 40vh;
+            margin: 0 5px;
+            width: 98%;
+        }
+        .program{
+            height: 300px;
+            width: 300px;
+        }
+        .testimonial {
+            width: 280px;
+        }
+        .testimonial-text {
+            font-size: 0.9rem;
+        }
+    }
+    #carouselExampleFade{
+        .carousel-img-container {
+            position: relative;
+            height: 40vh;
+            width: 100%;
+        }
+        .carousel-p-tag{
+            width: 60%;
+            font-size: 1.5rem;
+        }
+    }
+    #background-img{
+        .background-img-header{
+            z-index:10;
+            font-weight:bold;
+            font-size:30px;
+        }
+    }
+    #page-component{
+        .page-component-img-container{
+            height: 250px;
+            width: 100%;
+        }
+        .page-component-h1 {
+            white-space: normal;
+        }
+    }
+    #Admission {
+        .register-img-container {
+            height: 250px;
+            width: 90%;
+            margin-top: 10px;
+        }
+        .background-img-containers {
+            display: grid;
+            grid-template-columns: 1fr;
+            justify-items: stretch;
+           width: 90%;
+        }
+        .background-img-items {
+            width: 100%;
+        }
+    }
+    #log-in{
+        .log-in-container{
+            height: 560px;
+            width: 296px;
+        }
+    }
+    #Register{
+        .sign-up-container{
+            height: 700px;
+            font-size: 16px;
+            padding: 20px 20px 20px 10px;
+        }
+        .sign-up-header {
+            font-size: 26px;
+        }
+        .sign-up-btn{
+            margin-top: 20px;
+        }
+    }
+    #Administration-form{
+        .administration-form-p-tag{
+            font-size: 0.9rem;
+        }
+    }
+    .button{
+        font-size: 0.7rem;
+        padding: 8px 10px;
+    }
+}
