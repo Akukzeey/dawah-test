@@ -1,6 +1,6 @@
 import React from "react";
-import '@/styles/globals.scss'
-import '@/styles/media-quaries.scss'
+import './globals.scss'
+import './media-quaries.scss'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
